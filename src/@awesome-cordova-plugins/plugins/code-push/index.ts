@@ -369,6 +369,11 @@ export interface SyncOptions extends InstallOptions {
    * Overrides the config.xml deployment key when checking for updates.
    */
   deploymentKey?: string;
+
+  /**
+   * Overrides the config.xml serverUrl when checking for updates.
+   */
+  serverUrl?: string;
 }
 
 /**
